@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loader.js",
+  "scripts": {
+    "dev":"nodemon",
+    "production":"pm2 start loader.js --name backend"
+  },
+  "author": "Thiago Andrey Zils",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "exp": "^57.2.1",
+    "express": "^4.16.4",
+    "express-query-int": "^1.0.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.10",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^3.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
